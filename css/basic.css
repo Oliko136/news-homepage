@@ -1,4 +1,40 @@
+
+/* Custom property declarations */
+:root {
+    --dark-blue: #00001A;
+    --gunmetal: #5E607A;
+    --vermillion: #F15D51;
+    --yellow: #E9AA52;
+    --silver: #C5C6CE;
+    --white: #FFFDFA;
+    --font-family: 'Inter', sans-serif;
+    --font-size-title-desktop: 3.5rem;
+    --font-size-title-mobile: 2.5rem;
+    --font-size-heading-l: 2.5rem;
+    --font-size-heading-m: 2rem;
+    --font-size-heading-s: 1.25rem;
+    --font-size-heading-xs: 1.125rem;
+    --font-size-text: 0.9375rem;    
+    --font-size-button: 0.875rem;
+    --font-size-nav-mobile: 1.125rem;
+    --font-weight-extrabold: 800;
+    --font-weight-bold: 700;
+    --line-height-title-desktop: 3.5rem;
+    --line-height-title-mobile: 2.5rem;
+    --line-height-heading-l: 2.5rem;
+    --line-height-heading-m: 2rem;
+    --line-height-heading-s: 1.5rem;
+    --line-height-heading-xs: 1.5rem;
+    --line-height-text: 1.625rem;
+    --line-height-button: 1.5rem;
+    --line-height-nav-mobile: 1.5rem;
+    --letter-spacing-accent: 0.27344rem;
+    --mobile: 375px;
+    --desktop: 1440px;
+}
+
 /* Global styles and style reset */
+
 html {
     box-sizing: border-box;
 }
