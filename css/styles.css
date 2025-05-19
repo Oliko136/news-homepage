@@ -13,3 +13,4 @@
 /* LAYOUT */
 @import './layout/header.css';
 @import './layout/trending.css';
+@import './layout/new.css';
