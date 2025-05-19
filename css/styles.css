@@ -1,1 +1,5 @@
-@import './basic.css';
+/* UTILS */
+@import './utils/variables.css';
+
+/* BASE */
+@import './base/global.css';

@@ -1,5 +1,5 @@
-
 /* Custom property declarations */
+
 :root {
     --dark-blue: #00001A;
     --gunmetal: #5E607A;
@@ -31,34 +31,4 @@
     --letter-spacing-accent: 0.27344rem;
     --mobile: 375px;
     --desktop: 1440px;
-}
-
-/* Global styles and style reset */
-
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    display: block;
-    height: auto;
-}
-
-button {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    cursor: pointer;
 }
