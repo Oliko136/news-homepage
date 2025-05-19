@@ -4,3 +4,6 @@
 
 /* BASE */
 @import './base/global.css';
+
+/* COMPONENTS */
+@import './components/container.css';

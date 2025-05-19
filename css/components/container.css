@@ -1,0 +1,13 @@
+/* Container component */
+.container {
+    width: var(--mobile);
+    margin: 0 auto;
+    padding: 0 var(--spacing-100);
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: var(--desktop);
+        padding: 0 10.31rem;
+    }
+}
