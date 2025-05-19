@@ -27,3 +27,11 @@ button {
     line-height: inherit;
     cursor: pointer;
 }
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-text);
+    line-height: var(--line-height-text);
+    color: var(--gunmetal);
+    background-color: var(--white);
+}
