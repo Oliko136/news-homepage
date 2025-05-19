@@ -1,4 +1,5 @@
 /* Fonts */
+
 @font-face {
     font-family: var(--font-family);
     src: url(../../assets/fonts/static/Inter-Regular.ttf) format('truetype');
