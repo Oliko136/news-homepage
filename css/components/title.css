@@ -1,0 +1,13 @@
+.title {
+    font-size: var(--font-size-title-mobile);
+    font-weight: var(--font-weight-extrabold);
+    line-height: var(--line-height-title-mobile);
+    color: var(--dark-blue);
+}
+
+@media screen and (min-width: 1440px) {
+    .title {
+        font-size: var(--font-size-title-desktop);
+        line-height: var(--line-height-title-desktop);
+    }
+}
