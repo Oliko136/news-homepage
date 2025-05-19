@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5625rem;
+    height: 3rem;
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-button);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: var(--letter-spacing-accent);
+    color: var(--dark-blue);
+    background-color: var(--vermillion);
+    transition: color 250ms ease-in, background-color 250ms ease-in;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    color: var(--white);
+    background-color: var(--dark-blue);
+}

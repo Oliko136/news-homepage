@@ -8,6 +8,7 @@
 /* COMPONENTS */
 @import './components/container.css';
 @import './components/title.css';
+@import './components/button.css';
 
 /* LAYOUT */
 @import './layout/header.css';
