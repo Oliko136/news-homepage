@@ -1,0 +1,15 @@
+/* Section title component */
+
+.section-title {
+    font-size: var(--font-size-heading-m);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-heading-m);
+    color: var(--yellow);
+}
+
+@media screen and (min-width: 1440px) {
+    .section-title {
+        font-size: var(--font-size-heading-l);
+        line-height: var(--line-height-heading-l);
+    }
+}

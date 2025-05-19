@@ -1,4 +1,5 @@
 /* Container component */
+
 .container {
     width: var(--mobile);
     margin: 0 auto;
