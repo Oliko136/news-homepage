@@ -7,3 +7,6 @@
 
 /* COMPONENTS */
 @import './components/container.css';
+
+/* LAYOUT */
+@import './layout/header.css';
