@@ -1,5 +1,6 @@
 /* UTILS */
 @import './utils/variables.css';
+@import './utils/fonts.css';
 
 /* BASE */
 @import './base/global.css';
