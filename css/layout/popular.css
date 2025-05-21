@@ -1,0 +1,45 @@
+.popular {
+    margin-top: 64px;
+}
+
+.popular__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-200);
+}
+
+.popular__item {
+    counter-increment: list-item;
+    display: flex;
+    gap: 1.53rem;
+}
+
+.popular__img {
+    width: 100px;
+}
+
+.popular__text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-56);
+    padding-top: 2.75rem;
+}
+
+.popular__text::before {
+    position: absolute;
+    top: 0;
+    content: "0" counter(list-item);
+    font-size: var(--font-size-heading-m);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-heading-m);
+    color: var(--vermillion);
+}
+
+.popular__heading {
+    font-size: var(--font-size-heading-xs);
+    font-weight: var(--font-weight-extrabold);
+    line-height: var(--line-height-heading-xs);
+    color: var(--dark-blue);
+}
