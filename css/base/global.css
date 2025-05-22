@@ -29,9 +29,16 @@ button {
 }
 
 body {
+    padding-bottom: 5rem;
     font-family: var(--font-family);
     font-size: var(--font-size-text);
     line-height: var(--line-height-text);
     color: var(--gunmetal);
     background-color: var(--white);
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        padding-bottom: 8.06rem;
+    }
 }
