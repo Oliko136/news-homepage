@@ -1,6 +1,4 @@
-.popular {
-    margin-top: 64px;
-}
+/* Popular section */
 
 .popular__list {
     list-style: none;
@@ -45,6 +43,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .popular {
+        grid-area: popular;
+    }
+
     .popular__list {
         flex-direction: row;
     }

@@ -1,0 +1,19 @@
+/* Grid container */
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-400);
+}
+
+@media screen and (min-width: 1440px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+        "trending trending new"
+        "trending trending new"
+        "popular popular popular";
+        /*gap: 4.5rem 1.87rem;*/
+        justify-content: space-between;
+    }
+}
