@@ -18,9 +18,6 @@
 
 .new__item {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-50);
 }
 
 .new__item:not(:last-child)::after {
@@ -37,6 +34,21 @@
     font-weight: var(--font-weight-extrabold);
     line-height: var(--line-height-heading-s);
     color: var(--white);
+    transition: color 250ms ease-in;
+}
+
+.new__link:hover .new__heading,
+.new__link:focus .new__heading,
+.new__link:active .new__heading {
+    color: var(--yellow);
+}
+
+.new__link {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-50);
+    text-decoration: none;
+    color: inherit;
 }
 
 @media screen and (min-width: 1440px) {
