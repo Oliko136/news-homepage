@@ -40,6 +40,18 @@
     font-weight: var(--font-weight-extrabold);
     line-height: var(--line-height-heading-xs);
     color: var(--dark-blue);
+    transition: color 250ms ease-in;
+}
+
+.popular__link:hover .popular__heading,
+.popular__link:focus .popular__heading,
+.popular__link:active .popular__heading {
+    color: var(--vermillion);
+}
+
+.popular__link {
+    text-decoration: none;
+    color: inherit;
 }
 
 @media screen and (min-width: 1440px) {
