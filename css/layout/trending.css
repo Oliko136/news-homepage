@@ -7,18 +7,35 @@
 }
 
 .trending__img {
-    width: 100%;
     height: 300px;
 }
 
-.trending__text {
+.trending__info {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-100);
+    gap: var(--spacing-150);
 }
 
 @media screen and (min-width: 1440px) {
     .trending {
+        display: grid;
+        grid-template-areas: 
+        "image image"
+        "heading info";
         grid-area: trending;
+    }
+
+    .trending__img {
+        grid-area: image;
+    }
+
+    .trending__heading {
+        grid-area: heading;
+    }
+
+    .trending__info {
+        gap: 1.81rem;
+        grid-area: info;
+        align-self: self-end;
     }
 }
