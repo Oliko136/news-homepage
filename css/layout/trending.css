@@ -19,6 +19,7 @@
 @media screen and (min-width: 1440px) {
     .trending {
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
         "image image"
         "heading info";
@@ -26,6 +27,8 @@
     }
 
     .trending__img {
+        width: 730px;
+        height: 300px;
         grid-area: image;
     }
 

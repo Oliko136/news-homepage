@@ -43,7 +43,11 @@
 
       <!-- Trending section -->
       <section class="trending">
-        <img class="trending__img" src="./assets/images/image-web-3-mobile.jpg" alt="Abstract illustration with different shapes and colors">
+        <picture class="trending__img">
+          <source media="(max-width: 1439px)" srcset="./assets/images/hero-mobile.webp 1x, ./assets/images/hero-mobile@2x.webp 2x">
+          <source srcset="./assets/images/hero-desktop.webp 1x, ./assets/images/hero-desktop@2x.webp 2x">
+          <img src="#" alt="Abstract illustration with different shapes and colors">
+        </picture>
         <h1 class="title trending__heading">The Bright Future of Web 3.0?</h1>
         <div class="trending__info">
           <p>
