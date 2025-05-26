@@ -23,6 +23,7 @@
 .navbar__link {
     color: inherit;
     text-decoration: none;
+    transition: color 250ms ease-in;
 }
 
 .navbar__link:hover,
