@@ -15,6 +15,7 @@
 
 .popular__img {
     width: 100px;
+    height: 127px;
 }
 
 .popular__text {
@@ -22,6 +23,7 @@
     display: flex;
     flex-direction: column;
     gap: var(--spacing-56);
+    max-width: 226px;
     padding-top: 2.75rem;
 }
 
@@ -61,5 +63,6 @@
 
     .popular__list {
         flex-direction: row;
+        gap: 1.87rem;
     }
 }

@@ -23,6 +23,7 @@
         grid-template-areas: 
         "image image"
         "heading info";
+        gap: 1.75rem 1.88rem;
         grid-area: trending;
     }
 
