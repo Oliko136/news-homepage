@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.navbar__logo img {
+.navbar__logo svg {
     width: 45px;
     height: 28px;
 }
@@ -37,7 +37,7 @@
         padding: 5.56rem 0 3.44rem;
     }
 
-    .navbar__logo img {
+    .navbar__logo svg {
         width: 65px;
         height: 40px;
     }
