@@ -16,8 +16,7 @@
 }
 
 .navbar__list {
-    display: flex;
-    gap: var(--spacing-250);
+    display: none;
 }
 
 .navbar__link {
@@ -32,6 +31,18 @@
     color: var(--vermillion);
 }
 
+.menu-btn-burger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0;
+    margin-left: auto;
+    
+    background-color: transparent;
+    border: none;
+}
+
 @media screen and (min-width: 1440px) {
     .header {
         padding: 5.56rem 0 3.44rem;
@@ -40,5 +51,14 @@
     .navbar__logo svg {
         width: 65px;
         height: 40px;
+    }
+
+    .navbar__list {
+        display: flex;
+        gap: var(--spacing-250);
+    }
+
+    .menu-btn-burger {
+        display: none;
     }
 }

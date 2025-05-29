@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <!-- Page header -->
+  <!-- PAGE HEADER -->
   <header class="header">
     <div class="container">
       <nav class="navbar">
@@ -37,13 +37,20 @@
             <a class="navbar__link" href="/">Categories</a>
           </li>
         </ul>
+
+        <!-- MOBILE MENU BUTTON-->
+        <button type="button" class="menu-btn-burger" data-menu-open>
+          <svg width="40" height="17">
+            <use href="./assets/images/icon-sprite.svg#icon-menu" class="menu-btn-burger__icon"></use>
+          </svg>
+        </button>
       </nav>
     </div>
   </header>
   <main>
     <div class="container grid-container">
 
-      <!-- Trending section -->
+      <!-- TRENDING SECTION -->
       <section class="trending">
         <picture class="trending__img">
           <source media="(max-width: 1439px)" srcset="./assets/images/hero-mobile.webp 1x, ./assets/images/hero-mobile@2x.webp 2x">
@@ -60,7 +67,7 @@
         </div>
       </section>
 
-      <!-- New section -->
+      <!-- NEW SECTION -->
       <section class="new">
         <h2 class="section-title">New</h2>
         <ul class="new__list">
@@ -87,7 +94,7 @@
         </ul>
       </section>
 
-      <!-- Popular section -->
+      <!-- POPULAR SECTION -->
       <section class="popular">
         <ol class="popular__list">
           <li class="popular__item">
