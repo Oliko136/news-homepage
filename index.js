@@ -9,6 +9,15 @@
     refs.closeMenuBtn.addEventListener('click', toggleMenu);
  
     function toggleMenu() {
-      refs.menu.classList.toggle('is-open');
+        refs.menu.classList.toggle('is-open');
+        preventScroll();
+    }
+
+    function preventScroll() {
+        if (!refs.menu.classList.contains('is-open')) {
+            document.body.style.overflow = 'scroll';
+        } else {
+            document.body.style.overflow = 'hidden';
+        }
     }
   })();
