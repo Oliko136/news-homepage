@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Find challenge solution here](https://github.com/Oliko136/news-homepage)
+- Live Site URL: [Find live page here](https://news-homepage-phi-indol.vercel.app/)
 
 ## My process
 
@@ -52,9 +52,9 @@ As a result, this landing page:
 
 - ✔️ Uses W3 validated HTML and CSS
 - ✔️ Uses semantic HTML
-- ✔️ Uses optimized images for 3 device types and 2 resolution types
+- ✔️ Uses optimized images for 2 device types and 2 resolution types
 - ✔️ Uses optimized SVG icon sprite
-- ✔️ Is fully responsive and works seamlessly on mobile, tablet and desktop devices
+- ✔️ Is responsive and works seamlessly on mobile and desktop devices
 - ✔️ Follows a separation of concerns architecture principle and contains CSS styles in different folders
 - ✔️ Was tested on Chrome, Firefox, Edge, Safari, IOS Safari
 - ✔️ Includes a meta description for search engines
