@@ -18,8 +18,8 @@
   <header class="header">
     <div class="container">
       <nav class="navbar">
-        <a href="/" class="navbar__logo">
-          <svg>
+        <a href="/" class="navbar__logo" aria-label="Go to homepage">
+          <svg aria-hidden="true">
             <use href="./assets/images/icon-sprite.svg#icon-logo"></use>
           </svg>
         </a>
@@ -42,16 +42,16 @@
         </ul>
 
         <!-- MOBILE MENU BUTTON -->
-        <button type="button" class="menu-btn-burger" data-menu-open>
-          <svg width="40" height="17">
+        <button type="button" class="menu-btn-burger" aria-label="Open navigation menu" data-menu-open>
+          <svg width="40" height="17" aria-hidden="true">
             <use href="./assets/images/icon-sprite.svg#icon-menu" class="menu-btn-burger__icon"></use>
           </svg>
         </button>
       </nav>
       <!-- MOBILE MENU -->
       <div class="menu" data-menu>
-        <button type="button" class="menu__close" data-menu-close>
-          <svg width="30.5" height="30.5">
+        <button type="button" class="menu__close" aria-label="Close navigation menu" data-menu-close>
+          <svg width="30.5" height="30.5" aria-hidden="true">
             <use href="./assets/images/icon-sprite.svg#icon-menu-close"></use>
           </svg>
         </button>
@@ -86,13 +86,13 @@
           <source srcset="./assets/images/hero-desktop.webp 1x, ./assets/images/hero-desktop@2x.webp 2x">
           <img src="#" alt="Abstract illustration with different shapes and colors">
         </picture>
-        <h1 class="title trending__heading">The Bright Future of Web 3.0?</h1>
+        <h1 class="title trending__heading" id="heading">The Bright Future of Web 3.0?</h1>
         <div class="trending__info">
           <p>
             We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
             But is it really fulfilling its promise?
           </p>
-          <a class="button" href="/">Read more</a>
+          <a class="button" href="/" aria-labelledby="heading btn" id="btn">Read more</a>
         </div>
       </section>
 
