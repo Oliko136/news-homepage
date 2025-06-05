@@ -1,7 +1,7 @@
 /* Header section */
 
 .header {
-    padding: 2rem 0;
+    padding: 0;
 }
 
 .navbar {
@@ -14,6 +14,10 @@
     display: none;
 }
 
+.navbar__logo {
+    padding: 2rem 0;
+}
+
 .navbar__logo svg {
     width: 45px;
     height: 28px;
@@ -24,6 +28,7 @@
 }
 
 .navbar__link {
+    padding: 2rem 0;
     color: inherit;
     text-decoration: none;
     transition: color 250ms ease-in;
@@ -40,7 +45,7 @@
     align-items: center;
     justify-content: center;
     
-    padding: 0;
+    padding: 2rem 0;
     margin-left: auto;
     
     background-color: transparent;
@@ -50,7 +55,7 @@
 @media screen and (min-width: 1440px) {
     .header {
         position: relative;
-        padding: 5.56rem 0 3.44rem;
+        padding: 3.56rem 0 1.44rem;
     }
 
     .skip-nav-link {
