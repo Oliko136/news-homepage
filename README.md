@@ -26,7 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/news-first.webp)
+![](./assets/images/news-second.webp)
+![](./assets/images/news-menu.webp)
+![](./assets/images/news-lighthouse.webp)
 
 ### Links
 
