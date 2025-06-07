@@ -51,13 +51,17 @@ Users should be able to:
 
 I completed this project to combine and apply all my newly (and previously) aquired knowledge about best accessibility practices, performance and speed optimization, SEO optimization, code validation, cross browser testing and CSS architecture.
 
-As a result, this landing page:
+As a result, this news page:
 
 - ✔️ Uses W3 validated HTML and CSS
 - ✔️ Uses semantic HTML
 - ✔️ Uses optimized images for 2 device types and 2 resolution types
 - ✔️ Uses optimized SVG icon sprite
 - ✔️ Is responsive and works seamlessly on mobile and desktop devices
+- ✔️ Follows best accessibility practices
+- ✔️ Includes a skip navigation link for easier navigation for keyboard users
+- ✔️ All interactive elements are keyboard-accessible, the entire page is fully operable by keyboard
+- ✔️ Accessible and understandable for screen reader users
 - ✔️ Follows a separation of concerns architecture principle and contains CSS styles in different folders
 - ✔️ Was tested on Chrome, Firefox, Edge, Safari, IOS Safari
 - ✔️ Includes a meta description for search engines
